@@ -1,10 +1,9 @@
-package com.example.demo;
+package com.example.demo.model;
 
+import com.example.demo.repository.CourseAssessmentDetailsRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import com.example.demo.CourseAssessmentDetails;
-import com.example.demo.CourseAssessmentDetailsRepository;
 
 import java.util.List;
 import java.util.Optional;
