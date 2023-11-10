@@ -1,11 +1,10 @@
-package com.example.demo.model;
+package com.example.demo.controller;
 
+import com.example.demo.model.CourseAssessment;
 import com.example.demo.repository.CourseAssessmentRepository;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
 
 @RestController
 @RequestMapping("/course_assessment")

@@ -1,5 +1,6 @@
-package com.example.demo.model;
+package com.example.demo.controller;
 
+import com.example.demo.model.Professor;
 import com.example.demo.repository.ProfessorRepository;
 
 import org.springframework.beans.factory.annotation.Autowired;

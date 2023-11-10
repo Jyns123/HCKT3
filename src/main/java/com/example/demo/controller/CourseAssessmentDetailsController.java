@@ -1,5 +1,9 @@
-package com.example.demo.model;
+package com.example.demo.controller;
 
+import com.example.demo.model.CourseAssessment;
+import com.example.demo.model.CourseAssessmentDetails;
+import com.example.demo.model.Professor;
+import com.example.demo.model.Student;
 import com.example.demo.repository.CourseAssessmentDetailsRepository;
 import com.example.demo.repository.CourseAssessmentRepository;
 import com.example.demo.repository.ProfessorRepository;
